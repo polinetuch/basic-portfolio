@@ -44,6 +44,7 @@
     border: 1px solid #dddddd;
     padding: 20px;
     width: 960px;
+    height: auto;
     margin: 0 auto;
     margin-bottom: 30px;    
     color:#4aaaa5;
@@ -75,13 +76,14 @@
 }
 
 .footer {
-    background-color:#666666;
+    background-color: #777777;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 9pt;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 5px;
     margin-left: 10px;
+    float: bottom;
 }
 
 
@@ -91,4 +93,16 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     line-height: 25px;
+}
+
+.row{
+    height: 150px;
+}
+
+.column {
+    height: 150px;
+}
+
+#grid-image {
+    height: 150px;
 }
