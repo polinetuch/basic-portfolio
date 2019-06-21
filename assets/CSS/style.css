@@ -30,10 +30,11 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.nav-li {
-    display: inline;
-    margin: 10px;
+#nav-li {
+    list-style-type: none;
+    display: inline-flex;
     text-decoration: none;
+    margin: 10px;
     color: #777777;
 }
 
@@ -81,4 +82,13 @@
     padding-top: 20px;
     padding-bottom: 5px;
     margin-left: 10px;
+}
+
+
+.input-styling {
+    color: #777777;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 25px;
 }
